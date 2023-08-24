@@ -1751,7 +1751,7 @@ span img {
     }
     .menu li a, 
     .menu li a:hover {
-        padding: 30px;
+        padding: 30px 15px;
         font-size: 24;
     }
     .hero-text h1 {
