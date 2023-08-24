@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Innovatech | Your One Stop Digital Solutions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/Innovatech-1 (1).png" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/Innovatech-1 (1).png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <script type="text/javascript" src="JS/main.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="Images/Innovatech-1.png" alt="Logo">
+                </a>
+            </div>
+            <div class="navigation">
+                <input type="checkbox" class="toggle-menu">
+                <div class="hamburger"></div>
+                <ul class="menu">
+                    <li><a href="index.html" class="nav-home">Home</a></li>
+                    <li><a href="about-us.html" class="nav-about">About Us</a></li>
+                    <li><a href="why-us.html" class="nav-why">Why Us</a></li>
+                    <li class="submenu">
+                        <a href="#" class="with-submenu nav-features">Features<span class="arrow">▼</span></a>
+                        <ul class="submenu-content">
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="course.html">Courses</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="pricing.html" class="nav-pricing">Pricing</a></li>
+                    <li><a href="contact-us.html" class="nav-contact">Contact Us</a></li>
+                    <li class="user-icon">
+                        <img src="Images/profile-user.png" alt="User Icon" id="show-login">
+                    </li>
+                    <li><a href="signup.html" class="sign-in-button">Sign Up</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="popup">
+        <div class="close-btn">&times;</div>
+        <div class="form">
+            <h2>LOG IN</h2>
+            <div class="form-element">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Enter email">
+            </div>
+            <div class="form-element">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter password">
+            </div>
+            <p class="signUp">Don't have an account yet?<a href="signup.html">Sign Up here!</a></p>
+            <div class="form-element">
+                <button type="button" onclick="saveData()" id="save_btn">Sign in</button>
+            </div>
+            <div class="form-element">
+                <button type="reset" class="" id="">Reset</button>
+            </div>
+            <div class="form-element">
+                <a href="#">Forgot password?</a>
+            </div>
+        </div>
+    </div>
+    <section class="halved-video-background">
+        <div class="container">
+            <div class="video-container>">
+                <video autoplay muted loop id="video-background">
+                <source src="Video/gradient.bg.mp4" type="video/mp4">
+            </div>
+        </div>
+        <div class="hero-text">
+            <h2 class="course-ht">Full Stack Web Development:</h2>
+            <div class="hero-btn">
+                <button id="getstarted" onclick="location.href = '#about-content';">EXPLORE</button>
+            </div>
+        </div>
+    </section>
+    <section class="fs-section1">
+        <div class="fs-img1">
+            <img src="/Images/asian-web-developer-working-with-hologram-and-augm-2022-10-19-05-05-55-utc.jpg">
+        </div>
+        <div class="fs-desc">
+            <h3>
+                Building Dynamic Web Applications
+            </h3>
+            <p>
+                This course is designed for aspiring developers who want to master both front-end and back-end web development. Learn to create responsive and user-friendly web applications using HTML, CSS, JavaScript, and popular frameworks like React and Node.js. Gain hands-on experience in database management, server-side scripting, and deploying applications to the cloud.
+            </p>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="ft-main-con">
+            <div class="ft-left-con">
+                <div class="ft-container">
+                    <div class="ft-row">
+                        <div class="footer-col">
+                            <div>
+                                <img src="Images/Innovatech-1.png">
+                            </div>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="why-us.html">Why Us</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="pricing.html">Pricing</a></li>
+                                <!-- <li><a href="#">Tech News</a></li> -->
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <div>
+                                <h4>Get Help</h4>
+                            </div>
+                            <ul>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Payment Options</a></li>
+                                <li><a href="contact-us.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <div>
+                                <h4>Socials</h4>
+                            </div>
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter fa-2xl"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-tiktok fa-2xl"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-skype fa-2xl"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ft-right-con">
+                <div class="in-right-con">
+                       <h2>20% off</h2> 
+                       <p>
+                        For the 1st five clients who will avail for coming month of August
+                       </p>  
+                       <div class="enroll-time">
+                        <div>
+                            <p id="count-days">00</p>
+                            <span>Days</span>
+                        </div>
+                        <div>
+                            <p id="count-hours">00</p>
+                            <span>Hours</span>
+                        </div>
+                        <div>
+                            <p id="count-minutes">00</p>
+                            <span>Minutes</span>
+                        </div>
+                        <div>
+                            <p id="count-seconds">00</p>
+                            <span>Seconds</span>
+                        </div>
+                            <!-- <img src="Images/clock.gif" class="clock"> -->
+                        </div>
+                       <button>Avail Now!</button>                           
+                </div>
+            </div>
+        </div>     
+        <div>
+            <hr>
+            <div class="copyright">
+                <p>Copyright &copy; 2023 INNOVATECH | Developed by Clark Kent Uyanguren</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var countDownDate = new Date("Aug 31, 2023 00:00:00").getTime();
+        var x = setInterval(function(){
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("count-days").innerHTML = days;
+            document.getElementById("count-hours").innerHTML = hours;
+            document.getElementById("count-minutes").innerHTML = minutes;
+            document.getElementById("count-seconds").innerHTML = seconds;
+        },1000);
+    </script>
+    <script type="text/javascript" src="JS/main.js"></script>
+    <script src="https://kit.fontawesome.com/4ab36552a9.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</body>
+</html>

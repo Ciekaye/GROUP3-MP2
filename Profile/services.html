@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Innovatech | Your One Stop Digital Solutions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/Innovatech-1 (1).png" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/Innovatech-1 (1).png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="Images/Innovatech-1.png" alt="Logo">
+                </a>
+            </div>
+            <div class="navigation">
+                <input type="checkbox" class="toggle-menu">
+                <div class="hamburger"></div>
+                <ul class="menu">
+                    <li><a href="index.html" class="nav-home">Home</a></li>
+                    <li><a href="about-us.html" class="nav-about">About Us</a></li>
+                    <li><a href="why-us.html" class="nav-why">Why Us</a></li>
+                    <li class="submenu">
+                        <a href="#" class="with-submenu nav-features">Features<span class="arrow">▼</span></a>
+                        <ul class="submenu-content">
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="course.html">Courses</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="pricing.html" class="nav-pricing">Pricing</a></li>
+                    <li><a href="contact-us.html" class="nav-contact">Contact Us</a></li>
+                    <li>Welcome
+                        <script>
+                            document.write(localStorage.getItem("name"));
+                        </script>
+                    </li>
+                    <li><button onclick="logOut()">Logout</button></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="halved-video-background">
+        <div class="container">
+            <div class="video-container>">
+                <video autoplay muted loop id="video-background">
+                <source src="Video/gradient.bg.mp4" type="video/mp4">
+            </div>
+        </div>
+        <div class="hero-text">
+            <h1>Services</h1>
+            <div class="hero-btn">
+                <button id="getstarted" onclick="location.href = '#about-content';">EXPLORE</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="au-con">
+            <div class="au-card">
+                <div class="au-card-content">
+                    <div class="au-card-cont-con">
+                        <h3 class="au-card-title">
+                            Software Development
+                    
+                        </h3>
+                        <span class="card-par">
+                            Leverage our expertise in crafting bespoke software solutions tailored to your unique requirements. From web and mobile applications to enterprise-level software, we bring your vision to life.
+                        </span>
+                    </div>
+                    <div>
+                        <div class="card-btn">
+                            <button id="getstarted">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+          </div>
+          <div>
+            <img src="Images/au-img1.png">
+          </div>
+        </div>
+        <div class="au-con">
+            <div class="au-card">
+                <div class="au-card-content">
+                    <div class="au-card-cont-con">
+                        <h3 class="au-card-title">
+                            Data Analytics
+                    
+                        </h3>
+                        <span class="card-par">
+                            Turn data into actionable insights with our advanced analytics services. Harness the power of big data to make informed decisions and gain a competitive edge.
+                        </span>
+                    </div>
+                    <div>
+                        <div class="card-btn">
+                            <button id="getstarted">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+          </div>
+          <div>
+            <img src="Images/services1.png">
+          </div>
+        </div>
+        <div class="au-con">
+            <div class="au-card">
+                <div class="au-card-content">
+                    <div class="au-card-cont-con">
+                        <h3 class="au-card-title">
+                            Cloud Solutions
+                    
+                        </h3>
+                        <span class="card-par">
+                            Embrace the scalability and flexibility of cloud computing. Our cloud experts design and implement secure and efficient cloud solutions that optimize your business operations.
+                        </span>
+                    </div>
+                    <div>
+                        <div class="card-btn">
+                            <button id="getstarted">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+          </div>
+          <div>
+            <img src="Images/services2 (1).png">
+          </div>
+        </div>
+        <div class="au-con">
+            <div class="au-card">
+                <div class="au-card-content">
+                    <div class="au-card-cont-con">
+                        <h3 class="au-card-title">
+                            Cybersecurity
+                    
+                        </h3>
+                        <span class="card-par">
+                            Safeguard your valuable digital assets with our robust cybersecurity measures. We protect your business from potential threats and ensure data integrity and confidentiality.
+                        </span>
+                    </div>
+                    <div>
+                        <div class="card-btn">
+                            <button id="getstarted">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+          </div>
+          <div>
+            <img src="Images/services3 (1).png">
+          </div>
+        </div>
+        <div class="au-con">
+            <div class="au-card">
+                <div class="au-card-content">
+                    <div class="au-card-cont-con">
+                        <h3 class="au-card-title">
+                            IT Consulting
+                    
+                        </h3>
+                        <span class="card-par">
+                            Get expert guidance on technology adoption and digital transformation. Our seasoned consultants help you navigate the complex tech landscape, aligning solutions with your business objectives.
+                        </span>
+                    </div>
+                    <div>
+                        <div class="card-btn">
+                            <button id="getstarted">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+          </div>
+          <div>
+            <img src="Images/services4 (1).png">
+          </div>
+        </div>
+    </section> 
+    <section class="overlap">
+        <div class="img-container">
+            <div class="bottom-img">
+                <div class="doing">
+                    <span>
+                        <h2>Doing Everything</h2>
+                        <h2>Yourself is Difficult</h2>
+                    </span>
+                </div>
+            </div>
+            <div class="top-img">    
+            </div>
+        </div>
+    </section>
+    <section class="services-content" id="about-content">
+        <div class="h2">
+            <h2 class="s-h2-title"></h2> 
+            <h2 class="s-h2-title">Transform Your Business Today </h2>
+            <p class="par1">
+                Partner with Innovatech and propel your business to new heights in the digital era. Contact us now to explore how our tech solutions can drive your success and position you as a leader in your industry.
+            </p>
+        </div> 
+    </section>  
+    <section class="formx">
+        <div class="form-card-container">
+            <div class="form-card">
+                <div class="form-title">
+                    <h2>Start Your Journey</h2>
+                    <h2>With Us!</h2>
+                </div>
+                <div class="form-email">
+                    <input type="email" id="email" name="email" placeholder="Your Email">
+                    <button>Start</button>
+                </div>
+            </div>
+            <div class="tilted-img">
+                <img src="Images/tilted.png">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="ft-main-con">
+            <div class="ft-left-con">
+                <div class="ft-container">
+                    <div class="ft-row">
+                        <div class="footer-col">
+                            <div>
+                                <img src="Images/Innovatech-1.png">
+                            </div>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="why-us.html">Why Us</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="pricing.html">Pricing</a></li>
+                                <!-- <li><a href="#">Tech News</a></li> -->
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <div>
+                                <h4>Get Help</h4>
+                            </div>
+                            <ul>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Payment Options</a></li>
+                                <li><a href="contact-us.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <div>
+                                <h4>Socials</h4>
+                            </div>
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter fa-2xl"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-tiktok fa-2xl"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-skype fa-2xl"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ft-right-con">
+                <div class="in-right-con">
+                       <h2>20% off</h2> 
+                       <p>
+                        For the 1st five clients who will avail for coming month of August
+                       </p>  
+                       <div class="enroll-time">
+                        <div>
+                            <p id="count-days">00</p>
+                            <span>Days</span>
+                        </div>
+                        <div>
+                            <p id="count-hours">00</p>
+                            <span>Hours</span>
+                        </div>
+                        <div>
+                            <p id="count-minutes">00</p>
+                            <span>Minutes</span>
+                        </div>
+                        <div>
+                            <p id="count-seconds">00</p>
+                            <span>Seconds</span>
+                        </div>
+                            <!-- <img src="Images/clock.gif" class="clock"> -->
+                        </div>
+                       <button>Avail Now!</button>                           
+                </div>
+            </div>
+        </div>     
+        <div>
+            <hr>
+            <div class="copyright">
+                <p>Copyright &copy; 2023 INNOVATECH | Developed by Clark Kent Uyanguren</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var countDownDate = new Date("Aug 31, 2023 00:00:00").getTime();
+        var x = setInterval(function(){
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("count-days").innerHTML = days;
+            document.getElementById("count-hours").innerHTML = hours;
+            document.getElementById("count-minutes").innerHTML = minutes;
+            document.getElementById("count-seconds").innerHTML = seconds;
+        },1000);
+    </script>
+    <script type="text/javascript" src="JS/main.js"></script>
+    <script type="text/javascript" src="JS/profile.js"></script>
+    <script src="https://kit.fontawesome.com/4ab36552a9.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</body>
+</html>
