@@ -138,7 +138,7 @@ function saveData(){
 
       localStorage.setItem("name", current_user.name);
       localStorage.setItem("email", current_user.email);
-      window.location.href="../Profile/index.html";
+      window.location.href="../GROUP3-MP2/Profile/index.html";
   }
   else{
       alert("Login Failed");
